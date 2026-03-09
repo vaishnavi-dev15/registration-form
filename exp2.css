@@ -1,0 +1,94 @@
+/* General page styling */
+
+body {
+  background-color:mistyrose; 
+   font-family: Arial, sans-serif; 
+   background-image: "C:\Users\vaish\Downloads\pexels-sebastians-2853937.jpg";
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form container */
+.registration-form {
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 600px;
+}
+
+/* Title */
+.registration-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  vertical-align: top;
+  color: #444;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+  width: 75%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+/* Country code input */
+.country-code {
+  width: 40px;
+  text-align: left;
+}
+
+/* Buttons */
+.form-actions {
+  text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="reset"] {
+  background: #6c757d;
+}
+
+input[type="submit"]:hover {
+  background: #0056b3;
+}
+
+input[type="reset"]:hover {
+  background: #5a6268;
+}
